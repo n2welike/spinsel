@@ -1,10 +1,11 @@
 # Spinsel site (GitHub Pages)
 
-Публичный сайт бренда для App Store Connect:
+Публичный сайт для App Store Connect. На страницах **не** публикуем Bundle ID, ФИО и открытый e-mail текстом — только кнопка «Написать нам».
 
 - RU: `/` · `/privacy/` · `/support/`
 - EN: `/en/` · `/en/privacy/` · `/en/support/`
 
-Почта поддержки: `n2we.nlike@gmail.com`.
+Почта в `mailto` (не для витрины): задаётся в `support/index.html` и `en/support/index.html`.
+Когда появится брендовый ящик (`spinsel.support@…`), заменить только эти ссылки.
 
-Публикация: репозиторий `n2welike/spinsel`, GitHub Pages из ветки `main`, папка `/`.
+Репозиторий публичный (нужно для бесплатного Pages). В профиле GitHub лучше не указывать ФИО, телефон и другие личные данные.
