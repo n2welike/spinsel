@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Иконка Spinsel: крутящийся трафарет. Без прозрачности и без скруглений — углы скругляет iOS. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6cc6f5"/><stop offset="1" stop-color="#3f9fe0"/></linearGradient>
+    <radialGradient id="disk" cx="0.42" cy="0.38" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3efe4"/></radialGradient>
+    <radialGradient id="pin" cx="0.38" cy="0.32" r="0.7"><stop offset="0" stop-color="#5b8ff0"/><stop offset="1" stop-color="#173f9e"/></radialGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0b3a66" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="512" cy="548" r="372" fill="url(#disk)" filter="url(#sh)"/>
+  <g fill="none" stroke-linecap="round" stroke-width="44" transform="rotate(-18 512 548)">
+    <path d="M 312 430 A 230 230 0 0 1 690 400" stroke="#8fc7ef"/>
+    <path d="M 742 520 A 230 230 0 0 1 640 742" stroke="#ff8a3d"/>
+    <path d="M 512 778 A 230 230 0 0 1 300 640" stroke="#8fc7ef"/>
+    <path d="M 410 470 A 120 120 0 0 1 612 470" stroke="#2fa84f"/>
+    <path d="M 624 600 A 120 120 0 0 1 430 640" stroke="#8fc7ef"/>
+  </g>
+  <circle cx="512" cy="548" r="58" fill="url(#pin)"/>
+  <path d="M 452 92 L 572 92 L 512 196 Z" fill="#e94b3c" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
+</svg>
